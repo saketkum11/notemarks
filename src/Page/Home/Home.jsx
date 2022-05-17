@@ -26,7 +26,7 @@ const Home = () => {
           </Link>
         </div>
       </div>
-      <main>
+      <main className="d-flex justify-content-center">
         <Card></Card>
       </main>
       <footer></footer>

@@ -1,7 +1,8 @@
+import "./Card.css";
 const Card = () => {
   return (
     <>
-      <section className="d-flex mt-5 flex-wrap flex-grow-1 justify-content-center gap-3">
+      <section className="d-flex mt-5 flex-wrap group justify-content-center gap-3">
         <div class="card w-25">
           <div class="card-header">Featured</div>
           <div class="card-body">
