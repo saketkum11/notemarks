@@ -8,8 +8,8 @@ const Card = () => {
           <div class="card-body">
             <h5 class="card-title">Special title treatment</h5>
             <p class="card-text">
-              With supporting text below as a natural lead-in to additional
-              content.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi,
+              culpa!
             </p>
             <a href="#" class="btn btn-primary">
               Go somewhere
@@ -21,8 +21,8 @@ const Card = () => {
           <div class="card-body">
             <h5 class="card-title">Special title treatment</h5>
             <p class="card-text">
-              With supporting text below as a natural lead-in to additional
-              content.
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi,
+              itaque!
             </p>
             <a href="#" class="btn btn-primary">
               Go somewhere
@@ -34,8 +34,8 @@ const Card = () => {
           <div class="card-body">
             <h5 class="card-title">Special title treatment</h5>
             <p class="card-text">
-              With supporting text below as a natural lead-in to additional
-              content.
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Cupiditate sequi ad ab voluptas aliquid illum?
             </p>
             <a href="#" class="btn btn-primary">
               Go somewhere
@@ -46,10 +46,7 @@ const Card = () => {
           <div class="card-header">Featured</div>
           <div class="card-body">
             <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">
-              With supporting text below as a natural lead-in to additional
-              content.
-            </p>
+            <p class="card-text">Lorem ipsum dolor sit amet.</p>
             <a href="#" class="btn btn-primary">
               Go somewhere
             </a>
@@ -60,8 +57,8 @@ const Card = () => {
           <div class="card-body">
             <h5 class="card-title">Special title treatment</h5>
             <p class="card-text">
-              With supporting text below as a natural lead-in to additional
-              content.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Consequatur architecto facere beatae, quod esse necessitatibus.
             </p>
             <a href="#" class="btn btn-primary">
               Go somewhere
