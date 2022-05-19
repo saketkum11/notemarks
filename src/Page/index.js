@@ -5,3 +5,5 @@ export { Profile } from "../Page/Profile/Profile";
 export { Archieve } from "../Page/Archieve/Archieve";
 export { Header } from "../Component/Header/Header";
 export { Card } from "../Component/Card/Card";
+export { Signup } from "../Page/Auth/Signup";
+export { Login } from "../Page/Auth/Login";
