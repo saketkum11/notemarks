@@ -3,14 +3,17 @@ import { Link } from "react-router-dom";
 import { useAuth } from "../../Context/Auth-context/Auth-context";
 
 const Signup = () => {
-  const { signup } = useAuth();
+  const { signup, login, isLoading } = useAuth();
   const [data, setData] = useState({
     firstName: "",
     lastName: "",
     email: "",
     password: "",
   });
+
+  const { email, password } = data;
   console.log("data from signup page", data);
+
   return (
     <>
       <div className="container w-25 p-5 shadow mt-5">
@@ -18,6 +21,7 @@ const Signup = () => {
           onSubmit={(event) => {
             event.preventDefault();
             signup(data);
+            login({ email, password });
           }}
         >
           <div className="mb-3">
@@ -85,6 +89,7 @@ const Signup = () => {
             </Link>
           </div>
         </form>
+        {isLoading && }
       </div>
     </>
   );

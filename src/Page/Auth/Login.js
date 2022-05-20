@@ -1,4 +1,3 @@
-import { data } from "autoprefixer";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useAuth } from "../../Context/Auth-context/Auth-context";
@@ -47,6 +46,19 @@ const Login = () => {
           <div className=" mt-4 d-flex flex-column justify-content-center">
             <button type="submit" className="btn btn-primary w-100">
               Login
+            </button>
+            <button
+              onClick={() => {
+                setData({
+                  ...data,
+                  email: "test123@gmail.com",
+                  password: "test123",
+                });
+              }}
+              type="submit"
+              className="btn btn-secondary w-100 mt-4"
+            >
+              Login as guest
             </button>
             <Link
               className="mt-4 link-primary d-flex justify-content-center"
