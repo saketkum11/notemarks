@@ -43,13 +43,10 @@ const AuthProvider = ({ children }) => {
       console.log(error);
     }
   };
-  const logout = async () => {
-    try {
-      const response = await axios.post("/api/auth/signup");
-      console.log("response", response);
-    } catch (error) {
-      console.log(error);
-    }
+  const logout = () => {
+    console.log("click");
+    setUserData({ ...userData, token: localStorage.clear(), isAuth: false });
+    navigate("/");
   };
   console.log("data from auth context", userData);
   return (

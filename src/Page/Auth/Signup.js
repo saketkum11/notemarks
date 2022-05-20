@@ -89,7 +89,6 @@ const Signup = () => {
             </Link>
           </div>
         </form>
-        {isLoading && }
       </div>
     </>
   );
